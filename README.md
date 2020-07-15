@@ -4,6 +4,8 @@ Criando ambiente para recuperações de cobranças em sua empresa através de um
 
 A ideia aqui é permitir que um cliente seja notificado e, através da TotalVoice, cobrar este cliente através de um robo de voz. O sistema também deve permitir que cobranças sejam negociáveis através da plataforma Asaas.
 
+_____
+
 #### Salvando uma recuperação [Migrar para o Apiary]
 POST `http://localhost:8080/api/recovery/`
 ```json
