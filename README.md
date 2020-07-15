@@ -13,7 +13,7 @@ POST `http://localhost:8080/api/recovery/`
     "originDate": "2020-01-29T23:33:31.332Z",
     "description": "Descrição da dívida",
     "debtor": {
-	      "publicId": "192y3981",
+	"publicId": "192y3981",
         "name": "Eduardo Pitz",
         "address": "Rua",
         "addressNumber": "123",
