@@ -20,7 +20,7 @@ class RecoveryServiceImpl(val recoveryEventService: RecoveryEventServiceImpl,
         val recovery: Recovery = Recovery(debtor, saveRecoveryDTO.value, saveRecoveryDTO.originDate, saveRecoveryDTO.description)
 
         recoveryRepository.save(recovery)
-        recoveryEventService.dispatchCreatedRecoveryEvent(recovery)
+        // recoveryEventService.dispatchCreatedRecoveryEvent(recovery)
 
         return recovery
     }
